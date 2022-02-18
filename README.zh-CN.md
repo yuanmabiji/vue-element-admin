@@ -1,8 +1,9 @@
-首次安装的时候可能会报以下问题：
+1,首次安装的时候可能会报以下问题：
 PS D:\code\vue\vue-element-admin> npm install --registry=https://registry.npm.taobao.org
 npm ERR! code UNABLE_TO_VERIFY_LEAF_SIGNATURE
 npm ERR! errno UNABLE_TO_VERIFY_LEAF_SIGNATURE
 npm ERR! request to https://codeload.github.com/sohee-lee7/Squire/tar.gz/b1e0e1031fa18912d233c204cbe7c7fae4a42621 failed, reason: unable to verify the first certificate
+
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     C:\Users\jinyue\AppData\Local\npm-cache\_logs\2022-02-17T07_08_16_735Z-debug-0.log
@@ -14,6 +15,9 @@ npm install 出现UNABLE_TO_VERIFY_LEAF_SIGNATURE的解决办法
 如下：npm config set strict-ssl false
 用完之后恢复：
 npm config set strict-ssl true
+
+2,报node-sass错误：
+解决方案：https://blog.csdn.net/m0_50913327/article/details/122871704?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.pc_relevant_default&spm=1001.2101.3001.4242.1&utm_relevant_index=3
 
 <p align="center">
   <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
